@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey;
+  margin: 5px;
+  padding: 5px; */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bedroom {
+  background-color: cornflowerblue;
+  height: 200px;
+  width: 200px;
+}
+
+.bath {
+  background-color: darkseagreen;
+}
+
+.Full {
+  height: 100px;
+  width: 200px;
+}
+
+.Half {
+  height: 200px;
+  width: 100px;
+}
+
+.kitchen {
+  background-color: gold;
+  height: 275px;
+  width: 100px;
+}
+
+.oven {
+  background-color: indianred;
+  height: 25px;
+  width: 50px;
+}
+
+.sink {
+  background-color: peru;
+  height: 25px;
+  width: 50px;
+}
+
+.livingroom {
+  background-color: moccasin;
+  height: 300px;
+  width: 200px;
 }
